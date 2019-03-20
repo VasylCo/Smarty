@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "ACME Normal";
+    src: url("ACMEnormal.ttf");
+}
+
+body {
+    background-color: #cee7f4;
+}
+
+h1 {
+    max-width: 817px;
+    margin: 265px auto 0 auto;
+    text-shadow: 0 -8px 10px rgba(63, 63, 63, 0.1);
+    color: #ffffff;
+    font-family: "ACME Normal";
+    letter-spacing: 0.15px;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+header {
+    /*background: url("./img/header.png");*/
+    background-image: linear-gradient(to bottom, #f5821f 0%, #f5821f 19%, #fdbd62 75%, #feefe4 100%);
+    max-height: 1128px;
+    text-align: center;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.1);
+    /*display: flex;
+    align-items: center;
+    justify-content: space-around;*/
+}
+
+.wrapper {
+    max-width: 1203px;
+    margin: 0 auto;
+}
+
+.navbar .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 18px 0;
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav a {
+    color: #fbfaf9;
+    font-family: "Comfortaa";
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.children {
+    margin-top: 101px;
+    width: 100%;
+    height: auto;
+}
+
+.about {
+    background: url("./img/cloud_1.png");
+    max-height: 804px;
+    background-size: contain;
+}
